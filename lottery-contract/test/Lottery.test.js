@@ -105,15 +105,10 @@ describe('Lottery Contract', () => {
             from: accounts[0]
         });
 
-        // const winners = await lottery.methods.getPreviousWinners().call({
-        //     from: accounts[0]
-        // });
-
         // Take into account gas, 90% of 2 is 1.8, 10% is 0.2, so slightly less should do
         assert(difference > web3.utils.toWei('1.6', 'ether'));
         assert(managerDifference > web3.utils.toWei('0.1', 'ether'));
         assert.equal(0, players.length);
-        //assert.equal(1, winners.length);
     });
 
 
