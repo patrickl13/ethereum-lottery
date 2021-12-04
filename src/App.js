@@ -28,7 +28,6 @@ class App extends React.Component {
     const manager = await lottery.methods.manager().call();
     const players = await lottery.methods.getPlayers().call();
     const previousWinners = await lottery.methods.getPreviousWinners().call();
-    console.log(previousWinners);
     const balance = await web3.eth.getBalance(lottery.options.address);
     this.setState({ manager, players, balance, previousWinners });
   }
