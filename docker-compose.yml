@@ -2,7 +2,7 @@ version: '3'
 services:
   deployment:
     build:
-      context: .
+      context: ./lottery-react
       dockerfile: Dockerfile
     ports:
       - '80:80'
