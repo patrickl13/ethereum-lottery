@@ -1,0 +1,19 @@
+/lottery-contract/node_modules
+/lottery-react/node_modules
+/lottery-contract/.env
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
