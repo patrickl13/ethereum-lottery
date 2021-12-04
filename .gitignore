@@ -1,6 +1,7 @@
 /lottery-contract/node_modules
-/lottery-react/node_modules
+/node_modules
 /lottery-contract/.env
+/package-lock.json
 /.pnp
 .pnp.js
 
